@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <main>
+
+        <h1>Lista de Tareas</h1>
+
+        <section id = "contenedorTareas">
+            <input id = "inputLista" type="text" value="Ingrese tarea" onclick="formatear(this.id)">
+            <button id = "botonAgregar" class = "botonAgregar" onclick = "agregarTarea(this.id, 'inputLista')">🔓</button>
+            <button id = "botonEliminar" class = "botonEliminar" onclick = "eliminarTarea(this.parentNode)">Eliminar Tarea</button>
+            <hr>
+        </section>
+        
+        <section id = "clones"></section>
+
+        <button id = "botonNuevaTarea" onclick = "nuevaTarea()">+</button>
+
+    </main>
+    
+    <script src = "./js/script.js"></script>
+
+</body>
+</html>
