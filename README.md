@@ -13,3 +13,5 @@ tareas que en un principio debera estar vacia.
 El programa es una idea basada en este enunciado pero
 reimaginado de otra forma, para trabajar con nodos y
 clonacion de elementos HTML. 
+
+Fuente del ejercicio: https://www.youtube.com/watch?v=6YMDmZwfaSc&t=253s&pp=ygUTdG9kb2NvZGUgamF2YXNjcmlwdA%3D%3D
